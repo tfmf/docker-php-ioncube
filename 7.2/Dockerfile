@@ -15,7 +15,8 @@ RUN apt-get update && apt-get install -y \
     curl \
     wget \
     netcat \
-    libmemcached-dev
+    libmemcached-dev \
+    procps
 
 # install memcached with pecl
 RUN  pecl install memcached
